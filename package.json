@@ -1,0 +1,27 @@
+{
+  "name": "raspberry-domotica-webserver",
+  "version": "0.0.0-development",
+  "description": "Webserver for domotica uses on raspberry  pi 2 b+",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/segux/raspberry-domotica-webserver.git"
+  },
+  "keywords": [
+    "raspberry",
+    "pi"
+  ],
+  "author": "Jose Segura García (segux)",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/segux/raspberry-domotica-webserver/issues"
+  },
+  "homepage": "https://github.com/segux/raspberry-domotica-webserver#readme",
+  "devDependencies": {
+    "semantic-release": "^8.2.0"
+  }
+}
