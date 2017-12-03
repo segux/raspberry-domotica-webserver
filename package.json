@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post",
-    "build": "Build OK!"
+    "build": "echo \"Build OK!\""
   },
   "repository": {
     "type": "git",
