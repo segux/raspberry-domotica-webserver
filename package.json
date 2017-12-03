@@ -2,7 +2,7 @@
   "name": "raspberry-domotica-webserver",
   "version": "0.0.0-development",
   "description": "Webserver for domotica uses on raspberry  pi 2 b+",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post"
@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/segux/raspberry-domotica-webserver#readme",
   "devDependencies": {
+    "generate-changelog": "^1.6.0",
     "semantic-release": "^8.2.0"
   }
 }
